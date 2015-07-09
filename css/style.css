@@ -4,9 +4,6 @@ html, body {
   padding: 0;
   margin: 0; }
 
-h1 {
-  color: #e1e1e1; }
-
 .navigation {
   padding: 0;
   margin: 0;
@@ -47,5 +44,30 @@ h1 {
   background-image: url(../img/arrow.png);
   background-size: 50px 50px;
   background-repeat: no-repeat; }
+
+#slide1 {
+  background-image: url(../img/slide1/1.jpg); }
+
+.slide-1-logo {
+  text-align: center; }
+
+#slide2 {
+  background-image: url(../img/slide2/2.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 9; }
+
+#slide3 {
+  background-color: #b6c10b; }
+
+#slide4 {
+  background-image: url(../img/slide4/4.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 9; }
 
 /*# sourceMappingURL=style.css.map */
