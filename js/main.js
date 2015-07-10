@@ -35,7 +35,7 @@ jQuery(document).ready(function ($) {
     function goToByScroll(dataslide) {
         htmlbody.animate({
             scrollTop: $('.slide[data-slide="' + dataslide + '"]').offset().top
-        }, 2000, 'easeInOutQuint');
+        }, 1200, 'easeInOutQuint');
     }
     //When the user clicks on the navigation links, get the data-slide attribute value of the link and pass that variable to the goToByScroll function
     links.click(function (e) {

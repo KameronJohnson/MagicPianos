@@ -14,7 +14,7 @@ html, body {
   width: 100%; }
   .navigation li {
     display: inline-block;
-    padding: 5px 10px; }
+    padding: 10px 10px; }
     .navigation li a {
       color: #e1e1e1;
       text-decoration: none; }
