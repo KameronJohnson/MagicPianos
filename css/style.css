@@ -57,6 +57,43 @@ html, body {
   transition: transform 0.3s cubic-bezier(0, 0.75, 0, 1), text-shadow 0.1s ease-out; }
 
 /* ----- End flashlight effect ----- */
+.magicheader {
+  text-align: center;
+  margin-top: 160px; }
+
+#magicpianos2 {
+  font-size: 8em;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de; }
+
+#magicpianos4 {
+  font-size: 5em;
+  color: silver;
+  text-shadow: 4px 4px 1px #300000, 4px 6px 1px #400000, 4px 8px 1px #500000, 4px 10px 1px #600000, 4px 12px 1px #700000, 4px 14px 1px #800000, 4px 16px 1px #900000, 4px 18px 1px #A00000, 4px 20px 1px #B00000, 4px 22px 1px #C00000, 4px 24px 1px #D00000, 4px 26px 1px #E00000, 4px 28px 1px #F00000, 4px 30px 1px #FA0000, 4px 32px 1px #FB0000, 4px 34px 1px #FC0000, 4px 36px 1px #FD0000, 4px 38px 1px #FE0000, 4px 40px 2px #FF0000; }
+
+#magicpianos6 {
+  font-size: 7em;
+  text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e; }
+
+#magicpianos8 {
+  font: 200px "PublicGothicCircular";
+  font-weight: bold;
+  color: #da586e;
+  text-shadow: #c83e57 1px 1px 0, #c83e57 2px 2px 0, #c83e57 3px 3px 0, #c83e57 4px 4px 0, #c83e57 5px 5px 0, #c83e57 6px 6px 0, #c83e57 7px 7px 0, #c83e57 8px 8px 0, #c83e57 9px 9px 0, #c83e57 10px 10px 0, #c83e57 11px 11px 0, #c83e57 12px 12px 0, #c83e57 13px 13px 0, #c83e57 14px 14px 0, #c83e57 15px 15px 0, #c83e57 16px 16px 0, #c83e57 17px 17px 0, #c83e57 18px 18px 0, #c83e57 19px 19px 0, #c83e57 20px 20px 0, #c83e57 21px 21px 0, #c83e57 22px 22px 0, #c83e57 23px 23px 0, #c83e57 24px 24px 0, #c83e57 25px 25px 0, #c83e57 26px 26px 0, #c83e57 27px 27px 0, #c83e57 28px 28px 0, #c83e57 29px 29px 0, #c83e57 30px 30px 0, #c83e57 31px 31px 0, #c83e57 32px 32px 0, #c83e57 33px 33px 0, #c83e57 34px 34px 0, #c83e57 35px 35px 0, #c83e57 36px 36px 0, #c83e57 37px 37px 0, #c83e57 38px 38px 0, #c83e57 39px 39px 0, #c83e57 40px 40px 0, #c83e57 41px 41px 0, #c83e57 42px 42px 0, #c83e57 43px 43px 0, #c83e57 44px 44px 0, #c83e57 45px 45px 0, #c83e57 46px 46px 0, #c83e57 47px 47px 0, #c83e57 48px 48px 0, #c83e57 49px 49px 0, #c83e57 50px 50px 0, #c83e57 51px 51px 0, #c83e57 52px 52px 0, #c83e57 53px 53px 0, #c83e57 54px 54px 0, #c83e57 55px 55px 0, #c83e57 56px 56px 0, #c83e57 57px 57px 0, #c83e57 58px 58px 0, #c83e57 59px 59px 0, #c83e57 60px 60px 0, #c83e57 61px 61px 0, #c83e57 62px 62px 0, #c83e57 63px 63px 0, #c83e57 64px 64px 0, #c83e57 65px 65px 0, #c83e57 66px 66px 0, #c83e57 67px 67px 0, #c83e57 68px 68px 0, #c83e57 50px 50px 0, #c83e57 69px 69px 0, #c83e57 70px 70px 0, #c83e57 71px 71px 0, #c83e57 72px 72px 0, #c83e57 73px 73px 0, #c83e57 74px 74px 0, #c83e57 75px 75px 0, #c83e57 76px 76px 0, #c83e57 77px 77px 0, #c83e57 78px 78px 0, #c83e57 79px 79px 0, #c83e57 80px 80px 0, #c83e57 81px 81px 0, #c83e57 82px 82px 0, #c83e57 83px 83px 0, #c83e57 84px 84px 0, #c83e57 85px 85px 0, #c83e57 86px 86px 0, #c83e57 87px 87px 0, #c83e57 88px 88px 0, #c83e57 89px 89px 0, #c83e57 90px 90px 0, #c83e57 91px 91px 0, #c83e57 92px 92px 0, #c83e57 93px 93px 0, #c83e57 94px 94px 0, #c83e57 95px 95px 0, #c83e57 96px 96px 0, #c83e57 97px 97px 0, #c83e57 98px 98px 0, #c83e57 99px 99px 0, #c83e57 100px 100px 0; }
+
+#magicpianos8:after {
+  content: "Magic Pianos";
+  color: #d3d3d3;
+  left: 100px;
+  top: 100px;
+  text-shadow: none;
+  position: absolute; }
+
+.extruded:hover {
+  color: #FFF;
+  text-shadow: #58E 1px 1px, #58E 2px 2px, #58E 3px 3px, #58E 4px 4px, #58E 5px 5px, #58E 6px 6px;
+  left: -6px;
+  top: -6px; }
+
 .slide {
   background-attachment: fixed;
   width: 100%;
@@ -107,5 +144,14 @@ html, body {
 
 #slide9 {
   background-image: url(../img/slide9/9.jpg); }
+
+#spell {
+  font-family: 'Quicksand', serif;
+  font-size: 48px;
+  margin-left: 100px;
+  color: #ffae19;
+  display: block;
+  position: absolute;
+  bottom: 25px; }
 
 /*# sourceMappingURL=style.css.map */
