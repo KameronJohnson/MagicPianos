@@ -23,9 +23,6 @@ html, body {
   .navigation .active {
     background-color: #737373; }
 
-.main {
-  margin-top: 30px; }
-
 .slide {
   background-attachment: fixed;
   width: 100%;
@@ -46,7 +43,12 @@ html, body {
   background-repeat: no-repeat; }
 
 #slide1 {
-  background-image: url(../img/slide1/1.jpg); }
+  background-image: url(../img/slide1/1.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 9; }
 
 .slide-1-logo {
   text-align: center; }
@@ -60,7 +62,12 @@ html, body {
   z-index: 9; }
 
 #slide3 {
-  background-color: #b6c10b; }
+  background-image: url(../img/slide3/3.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 9; }
 
 #slide4 {
   background-image: url(../img/slide4/4.jpg);
