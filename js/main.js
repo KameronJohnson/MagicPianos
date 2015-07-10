@@ -50,3 +50,10 @@ jQuery(document).ready(function ($) {
         goToByScroll(dataslide);
     });
 });
+
+var counter = 0;
+
+setInterval(function(){
+  counter++;
+  document.getElementById('spell').innerHTML = "initiating spell." + new Array(counter % 18).join('.');
+}, 250);
