@@ -51,14 +51,5 @@ jQuery(document).ready(function ($) {
     });
 
     //airport effect
-    $('#kam').airport([ 'By', 'Kameron', 'Johnson' ]);
+    $('#kam').airport([ 'Kameron', 'Johnson' ]);
 });
-
-
-
-var counter = 0;
-
-setInterval(function(){
-  counter++;
-  document.getElementById('spell').innerHTML = "initiating spell." + new Array(counter % 18).join('.');
-}, 250);
