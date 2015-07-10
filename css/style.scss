@@ -32,6 +32,11 @@ html, body {
   }
 }
 
+#kam {
+  padding-top: 50px;
+
+}
+
 /* flashlight effect */
 
 #box {
@@ -79,12 +84,12 @@ html, body {
 }
 
 #magicpianos2 {
-  font-size: 8em;
+  font: 8em "Josefin Slab";
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
 }
 
 #magicpianos4 {
-  font-size: 5em;
+  font: 7em "Lobster";
   color:silver;
   text-shadow:
   4px 4px 1px #300000,
@@ -109,13 +114,12 @@ html, body {
 }
 
 #magicpianos6 {
-  font-size: 7em;
+  font: 7em "Amatic SC";
   text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;
 }
 
 #magicpianos8 {
-  	font: 200px "PublicGothicCircular";
-    font-weight: bold;
+  	font: 250px "Droid Sans";
   	color: rgb(218,88,110);
   	text-shadow:rgb(200,62,87) 1px 1px 0,
   	rgb(200,62,87) 2px 2px 0,
@@ -302,7 +306,7 @@ html, body {
 #spell {
   font-family: 'Quicksand', serif;
   font-size: 48px;
-  margin-left: 100px;
+  margin-left: 50px;
   color: #ffae19;
   display: block;
   position: absolute;

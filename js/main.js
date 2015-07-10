@@ -49,7 +49,12 @@ jQuery(document).ready(function ($) {
         dataslide = $(this).attr('data-slide');
         goToByScroll(dataslide);
     });
+
+    //airport effect
+    $('#kam').airport([ 'By', 'Kameron', 'Johnson' ]);
 });
+
+
 
 var counter = 0;
 
